@@ -1,0 +1,23 @@
+{
+  "name": "csv-db-sample",
+  "version": "1.0.0",
+  "description": "csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.*.js"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "sakai.memoru",
+  "license": "MIT",
+  "dependencies": {
+    "comma-separated-values": "^3.6.4",
+    "csv": "^1.1.1",
+    "jsonstream": "^1.0.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "should": "^11.2.0"
+  }
+}
